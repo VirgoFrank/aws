@@ -7,6 +7,7 @@ key_name ="tpt"
   tags = {
     Name = "Uus nimi"
   }
+  user_data = file("${path.module}/ec2-setup.sh")
 
 }
 
